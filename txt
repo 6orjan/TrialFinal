@@ -10,3 +10,6 @@
     "DefaultConnection": "server=L4-PC18\\SQLEXPRESS2019;Database=ISExam2025;trusted_Connection=True;Encrypt=false"
   }
 }
+
+Add-Migration Initial
+Update-Database

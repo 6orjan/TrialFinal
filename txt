@@ -1,3 +1,12 @@
- "ConnectionStrings": {
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
     "DefaultConnection": "server=L4-PC18\\SQLEXPRESS2019;Database=ISExam2025;trusted_Connection=True;Encrypt=false"
   }
+}
